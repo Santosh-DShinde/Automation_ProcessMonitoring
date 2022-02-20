@@ -58,9 +58,9 @@ def Process_Monitoring():
 
 def mail_Sending(File_Name):
     try:
-        Sender = "shindesan3047@gmail.com"
+        Sender = "Your_Mail_ID"
         Receiver = argv[2]
-        password = "Darshan@1889"
+        password = "Your_Password"
         msg = MIMEMultipart()
         msg['From'] = Sender
         msg['To'] = Receiver
